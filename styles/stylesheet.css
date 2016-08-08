@@ -2,21 +2,23 @@ body, h3, h1 {
     margin: 0;
     padding: 0;
     border: 0;
-    color: white;
 }
 
 body {
-    background-image: url("/images/Convers.png") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-color: lightgray;
 }
 
 div {
     margin: 12px 0 0 12px;
 }
-.basicColors input {
+
+h3 {
+    margin-top: 24px;
+    Padding-left: 12px;
+    border-bottom: dashed;
+}
+
+input {
     width: 200px;
     height: 100px;
     margin-left: 12px;

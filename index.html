@@ -2,20 +2,36 @@
 <html>
     <head>
         <title>Color Picker</title>
+        <script src="scripts/MyFunctions.js"></script>
         <link type="text/css" rel="stylesheet" href="styles/stylesheet.css">
-        <script type="text/javascript" src="scripts/Functions.js"></script>
     </head>
 
     <body>
         <h1>Pick A Color</h1>
         <h3>Basic Colors</h3>
         <div class="basicColors">
-            <input type="button" style="background-color: red;" onclick="clickRed()">
-            <input type="button" style="background-color: blue;" onclick="clickBlue()">
-            <input type="button" style="background-color: green;" onclick="clickGreen()">
-            <input type="button" style="background-color: black;" onclick="clickBlack()">
-            <input type="button" style="background-color: white;" onclick="clickWhite()">
-            <input type="button" style="background-color: yellow;" onclick="clickYellow()">
+            <input type="button" style="background-color: red;" onclick="clickRed()" />
+            <input type="button" style="background-color: blue;" onclick="clickBlue()" />
+            <input type="button" style="background-color: green;" onclick="clickGreen()" />
+            <input type="button" style="background-color: black;" onclick="clickBlack()" />
+            <input type="button" style="background-color: white;" onclick="clickWhite()" />
+            <input type="button" style="background-color: yellow;" onclick="clickYellow()" />
         </div>
+        
+        <h3>Complex Colors</h3>
+        <div class="complexColors">
+            <input type="button" style="background-color: magenta;" onclick="clickMagenta()" />
+            <input type="button" style="background-color: aqua;" onclick="clickAqua()" /> 
+            <input type="button" style="background-color: lime;" onclick="clickLime()" />
+            <input type="button" style="background-color: Gray;" onclick="clickGray()" />
+            <input type="button" style="background-color: orange;" onclick="clickOrange()" />
+            <input type="button" style="background-color: purple;" onclick="clickPurple()" />
+        </div>
+        
+        <h3>Information</h3>
+        <div class="color"><p id="color">Color: </p></div>
+        <div class="hex"><p id="hex">Hexidecimal: </p></div>
+        <div class="rgb"><p id="rgb">rgb(0, 0, 0)</p></div>
+        <div class="hsl"><p id="hsl">hsl(0, 0%, 0%)</p></div>
     </body>
 </html>
